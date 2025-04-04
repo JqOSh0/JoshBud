@@ -1,54 +1,114 @@
-<header>
+# JoshBud - Dein persönlicher Desktop-Assistent
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+<div align="center">
+  
+![JoshBud Logo](https://github.com/JQ0Sh/joshbud/raw/main/assets/logo.png)
 
-# GitHub Pages
+**Beta Version 2.35**
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+*Ein PC-Assistent, der sich am Google Assistant orientiert – aber für deinen Desktop*
 
-</header>
+[![Python](https://img.shields.io/badge/Python-3.7+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=flat&logo=qt&logoColor=white)](https://pypi.org/project/PyQt5/)
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)](https://www.linux.org/)
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+</div>
 
-## Step 1: Enable GitHub Pages
+## 📋 Übersicht
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+JoshBud ist ein innovativer Desktop-Assistent, der entwickelt wurde, um deinen Computeralltag einfacher zu gestalten. Mit einer benutzerfreundlichen Oberfläche und vielen hilfreichen Funktionen ist JoshBud dein digitaler Begleiter für den täglichen Gebrauch.
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+### ✨ Hauptfunktionen
 
-### :keyboard: Activity: Enable GitHub Pages
+- 💬 **Natürliche Konversation** - Chatten wie mit einem echten Assistenten
+- 🔍 **Websuche** - Schnell Informationen finden ohne Browser öffnen zu müssen
+- 🎵 **Mediensteuerung** - Öffne Musik-, Video- und Streaming-Dienste
+- ⏰ **Zeit- und Datumsfunktionen** - Schneller Zugriff auf Uhrzeit und Datum
+- 🌦️ **Wetterinformationen** - Aktuelle Wetterangaben abrufen
+- ⚽ **Bundesliga-Tabellen** - Ergebnisse und Tabellen der 1., 2. und 3. Bundesliga
+- 🧠 **Kontextbewusstsein** - JoshBud merkt sich Gesprächsinhalte für natürlichere Interaktionen
+- 😄 **Humor** - Witze und lustige Antworten für eine angenehme Nutzererfahrung
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+## 🚀 Installation
 
-<footer>
+### Windows
+1. Lade die neueste Version von JoshBud für Windows herunter: [`joshbud_beta2.35.exe`](https://github.com/JQ0Sh/joshbud/releases/latest)
+2. Führe die Installationsdatei aus und folge den Anweisungen
+3. Starte JoshBud über die Desktop-Verknüpfung oder das Startmenü
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+### Linux
+1. Lade die neueste Version von JoshBud für Linux herunter: [`joshbud_beta2.35.deb`](https://github.com/JQ0Sh/joshbud/releases/latest)
+2. Installiere die Anwendung mit dem Befehl: `sudo dpkg -i joshbud_beta2.35.deb`
+3. Starte JoshBud über das Anwendungsmenü oder mit dem Befehl: `joshbud`
+
+## 📝 Verwendung
+
+JoshBud ist intuitiv zu bedienen:
+
+1. **Start**: Öffne die Anwendung, um eine freundliche Begrüßung zu erhalten
+2. **Fragen stellen**: Gib deine Anfrage in das Textfeld ein und drücke Enter
+3. **Befehle**: Probiere Befehle wie "Öffne YouTube", "Wie ist das Wetter?", "Erzähl einen Witz" usw.
+
+### Beispielbefehle:
+
+- "Wie spät ist es?"
+- "Öffne Netflix"
+- "Zeig mir die Bundesliga-Tabelle"
+- "Suche nach [Begriff]"
+- "Erzähle mir einen Witz"
+- "Wie wird das Wetter heute?"
+
+## 🧩 Technische Details
+
+JoshBud wurde mit Python und PyQt5 entwickelt und bietet eine moderne, responsive Benutzeroberfläche. Es verwendet:
+
+- **Python** für die Kernfunktionalität
+- **PyQt5** für die grafische Benutzeroberfläche
+- **Regex** für die natürliche Sprachverarbeitung
+- **JSON** für die Datenspeicherung und Konfiguration
+
+## 🔧 Konfiguration
+
+JoshBud speichert Einstellungen und Gespräche in:
+- `joshbud_memory.json` - Für Benutzereinstellungen und -präferenzen
+- `response_data.json` - Für Antwortdaten und Wissensbasen
+
+## 🛣️ Roadmap
+
+In zukünftigen Versionen sind folgende Funktionen geplant:
+
+- 🎤 **Sprachsteuerung** - JoshBud per Sprachbefehl steuern
+- 🔔 **Erinnerungen und Wecker** - Termine und Aufgaben verwalten
+- 🖼️ **Bildverarbeitung** - Einfache Bildanalyse und -bearbeitung
+- 🔄 **API-Integrationen** - Anbindung an weitere Online-Dienste
+- 📱 **Mobile App** - JoshBud als Begleiter auf dem Smartphone
+
+## 👥 Mitwirken
+
+Beiträge zum Projekt sind willkommen! So kannst du mitmachen:
+
+1. Forke das Repository
+2. Erstelle einen Feature-Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit deine Änderungen (`git commit -m 'Add some AmazingFeature'`)
+4. Push in den Branch (`git push origin feature/AmazingFeature`)
+5. Öffne einen Pull Request
+
+## 📄 Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die [LICENSE](LICENSE) Datei für Details.
+
+## 📞 Kontakt
+
+- **Discord-Server**: [Beitreten](https://discord.gg/WrdC5N84)
+- **TikTok**: [@i.am.jossh](https://www.tiktok.com/@i.am.jossh)
+- **Twitter**: [@JooshuX](https://x.com/JooshuX)
+- **Website**: [JQ0Sh.de](https://jq0sh.de)
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+<div align="center">
+  
+© 2025 Joshua (JQ0Sh). Alle Rechte vorbehalten.
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+</div>
