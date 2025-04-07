@@ -68,8 +68,8 @@ Für zukünftige Versionen geplant:
 
 ## ❕ Wichtig
 
-- 🪦 JoshBud ist zwar erst in Beta 2.35 wird aber von LumiBud in der Zukunft ersetzt.
-Somit wird es keinen Support mehr geben, sobald die erste Version oder Beta von LumiBud erscheint. 
+- 🪦 JoshBud ist zwar erst in Beta 2.35 wird aber von **LumiBud** in der Zukunft **ersetzt.**
+Somit wird es **keinen Support** mehr geben, sobald die erste Version oder Beta von LumiBud erscheint. 
 
 ---
 
