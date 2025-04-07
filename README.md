@@ -66,6 +66,11 @@ Für zukünftige Versionen geplant:
 - **TikTok**: [@i.am.jossh](https://www.tiktok.com/@i.am.jossh)
 - **Twitter**: [@JooshuX](https://x.com/JooshuX)
 
+## ❕ Wichtig
+
+- 🪦 JoshBud ist zwar erst in Beta 2.35 wird aber von LumiBud in der Zukunft ersetzt.
+Somit wird es keinen Support mehr geben, sobald die erste Version oder Beta von LumiBud erscheint. 
+
 ---
 
 © 2025 Joshua (JQ0Sh). Alle Rechte vorbehalten.
