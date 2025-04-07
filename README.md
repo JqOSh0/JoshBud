@@ -58,17 +58,7 @@ JoshBud wurde mit Python und PyQt5 entwickelt:
 
 Für zukünftige Versionen geplant:
 
-- 🎤 **Sprachsteuerung** - JoshBud per Sprachbefehl steuern
-- 🔔 **Erinnerungen und Wecker** - Termine und Aufgaben verwalten
 - 🔄 **API-Integrationen** - Anbindung an weitere Online-Dienste
-
-## 👥 Mitwirken
-
-Beiträge zum Projekt sind willkommen! So kannst du mitmachen:
-
-1. Forke das Repository
-2. Erstelle einen Feature-Branch
-3. Öffne einen Pull Request
 
 ## 📞 Kontakt
 
